@@ -1,0 +1,7 @@
+[
+    {
+        "flipbook_texture": "textures/blocks/shredder",
+        "atlas_tile": "cladded_shredder",
+        "ticks_per_frame": 3
+    }
+]

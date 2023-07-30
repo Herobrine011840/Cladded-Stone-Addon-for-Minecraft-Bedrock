@@ -1,0 +1,35 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "Cladded Stone Addon",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"cladded_peakmetal_ore": {
+			"textures": "textures/blocks/peakmetal_ore"
+		},
+		"cladded_raw_peakmetal_block": {
+			"textures": "textures/blocks/raw_peakmetal_block"
+		},
+		"cladded_peakmetal_block": {
+			"textures": "textures/blocks/peakmetal_block"
+		},
+		"cladded_ivy": {
+			"textures": "textures/blocks/ivy"
+		},
+		"cladded_ivy_stonebrick": {
+			"textures": "textures/blocks/ivy_stonebrick"
+		},
+		"cladded_cladded_smooth_stone": {
+			"textures": "textures/blocks/cladded_smooth_stone"
+		},
+		"cladded_shredder": {
+			"textures": "textures/blocks/shredder"
+		},
+		"cladded_cladded_stone": {
+			"textures": "textures/blocks/cladded_stone"
+		},
+		"cladded_allay_summon": {
+			"textures": "textures/blocks/none"
+		}
+	}
+}

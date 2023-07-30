@@ -1,0 +1,18 @@
+{
+	"biomes": {
+		"skytop_pinnacle": {
+			"water_surface_color": "#2496a5",
+			"water_surface_transparency": 0.95,
+			"fog_identifier": "minecraft:fog_default",
+			"remove_all_prior_fog": false,
+			"inherit_from_prior_fog": false
+		},
+		"jagged_peaks": {
+			"water_surface_color": "#2496a5",
+			"water_surface_transparency": 0.95,
+			"fog_identifier": "minecraft:fog_default",
+			"remove_all_prior_fog": false,
+			"inherit_from_prior_fog": false
+		}
+	}
+}

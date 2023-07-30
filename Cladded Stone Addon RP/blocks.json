@@ -1,0 +1,46 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"cladded:peakmetal_ore": {
+		"sound": "stone",
+		"textures": "cladded_peakmetal_ore"
+	},
+	"cladded:raw_peakmetal_block": {
+		"sound": "stone",
+		"textures": "cladded_raw_peakmetal_block"
+	},
+	"cladded:peakmetal_block": {
+		"sound": "metal",
+		"textures": "cladded_peakmetal_block"
+	},
+	"cladded:ivy_plant": {
+		"sound": "sweet_berry_bush"
+	},
+	"cladded:ivy_stonebrick": {
+		"sound": "stone",
+		"textures": "cladded_ivy_stonebrick"
+	},
+	"cladded:cladded_smooth_stone": {
+		"sound": "copper",
+		"textures": "cladded_cladded_smooth_stone"
+	},
+	"cladded:shredder": {
+		"sound": "copper",
+		"textures": {
+			"up": "cladded_shredder",
+			"down": "cladded_cladded_smooth_stone",
+			"side": "cladded_cladded_smooth_stone"
+		}
+	},
+	"cladded:cladded_stone": {
+		"sound": "copper",
+		"textures": "cladded_cladded_stone"
+	},
+	"cladded:allay_summon": {
+		"sound": "stone",
+		"textures": "cladded_allay_summon"
+	}
+}

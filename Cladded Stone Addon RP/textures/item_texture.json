@@ -1,0 +1,24 @@
+{
+	"resource_pack_name": "Cladded Stone Addon",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"cladded_raw_peakmetal": {
+			"textures": "textures/items/raw_peakmetal"
+		},
+		"cladded_peakmetal_ingot": {
+			"textures": "textures/items/peakmetal_ingot"
+		},
+		"cladded_ivy": {
+			"textures": "textures/items/ivy"
+		},
+		"cladded_cladding_ingot": {
+			"textures": "textures/items/cladding_ingot"
+		},
+		"cladded_cladding_scrapmetal": {
+			"textures": "textures/items/cladding_scrapmetal"
+		},
+		"cladded_cladded_netherite_sword": {
+			"textures": "textures/items/cladded_netherite_sword"
+		}
+	}
+}

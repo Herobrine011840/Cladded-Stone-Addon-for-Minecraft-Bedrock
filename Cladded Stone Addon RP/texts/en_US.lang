@@ -1,0 +1,15 @@
+tile.cladded:peakmetal_ore.name=Peakmetal Ore
+item.cladded:raw_peakmetal=Raw Peakmetal
+item.cladded:peakmetal_ingot=Peakmetal Ingot
+tile.cladded:raw_peakmetal_block.name=Block of Raw Peakmetal
+tile.cladded:peakmetal_block.name=Block of Peakmetal
+tile.cladded:ivy_plant.name=Ivy
+tile.cladded:ivy_stonebrick.name=Ivy Stone Bricks
+item.cladded:ivy=Ivy
+item.cladded:cladding_ingot=Cladding Ingot
+item.cladded:cladding_scrapmetal=Cladding Scrapmetal
+tile.cladded:cladded_smooth_stone.name=Cladded Smooth Stone
+tile.cladded:shredder.name=Shredder
+tile.cladded:cladded_stone.name=Cladded Stone
+tile.cladded:allay_summon.name=Allay Summon
+item.cladded:cladded_netherite_sword=Cladded Netherite Sword
