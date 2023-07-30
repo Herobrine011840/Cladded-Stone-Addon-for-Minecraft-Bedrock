@@ -1,0 +1,22 @@
+{
+	"format_version": "1.18.20",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "cladded:summit_ruin_big_ruin"
+		},
+		"features": [
+			[
+				"cladded:summit_ruin2",
+				8
+			],
+			[
+				"cladded:summit_ruin9",
+				1
+			],
+			[
+				"cladded:summit_ruin10",
+				1
+			]
+		]
+	}
+}

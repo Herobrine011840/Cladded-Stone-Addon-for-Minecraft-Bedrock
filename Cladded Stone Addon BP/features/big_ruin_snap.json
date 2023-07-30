@@ -1,0 +1,11 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:snap_to_surface_feature": {
+		"description": {
+			"identifier": "cladded:big_ruin_snap"
+		},
+		"feature_to_snap": "cladded:summit_ruin_big_ruin",
+		"vertical_search_range": 200,
+		"surface": "floor"
+	}
+}

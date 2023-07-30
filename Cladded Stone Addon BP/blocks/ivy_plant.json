@@ -1,0 +1,72 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cladded:ivy_plant",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:geometry": "geometry.ivy",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cladded_ivy",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					1,
+					16
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					1,
+					16
+				]
+			},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:destroy_time": 0.1,
+			"minecraft:explosion_resistance": 2,
+			"minecraft:friction": 0.9,
+			"minecraft:on_interact": {
+				"condition": "query.get_equipped_item_name('main_hand')=='bone_meal'",
+				"event": "grow"
+			},
+			"minecraft:loot": "loot_tables/ivy.json"
+		},
+		"events": {
+			"grow": {
+				"run_command": {
+					"command": [
+						"playsound item.bone_meal.use @a [r=10] ~ ~ ~",
+						"particle minecraft:crop_growth_emitter ~ ~ ~",
+						"fill ~1 ~ ~ ~1 ~ ~ cladded:ivy_plant 0 replace air",
+						"fill ~-1 ~ ~ ~-1 ~ ~ cladded:ivy_plant 0 replace air",
+						"fill ~ ~ ~1 ~ ~ ~1 cladded:ivy_plant 0 replace air",
+						"fill ~ ~ ~-1 ~ ~ ~-1 cladded:ivy_plant 0 replace air",
+						"fill ~1 ~ ~ ~1 ~ ~ cladded:ivy_stonebrick 0 replace stonebrick",
+						"fill ~-1 ~ ~ ~-1 ~ ~ cladded:ivy_stonebrick 0 replace stonebrick",
+						"fill ~ ~ ~1 ~ ~ ~1 cladded:ivy_stonebrick 0 replace stonebrick",
+						"fill ~ ~ ~-1 ~ ~ ~-1 cladded:ivy_stonebrick 0 replace stonebrick",
+						"fill ~ ~ ~1 ~ ~1 ~ cladded:ivy_stonebrick 0 replace stonebrick",
+						"fill ~ ~-1 ~ ~ ~-1 ~ cladded:ivy_stonebrick 0 replace stonebrick"
+					]
+				},
+				"decrement_stack": {}
+			}
+		}
+	}
+}

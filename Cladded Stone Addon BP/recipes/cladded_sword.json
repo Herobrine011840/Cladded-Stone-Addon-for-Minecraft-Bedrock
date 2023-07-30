@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "cladded:cladded_sword"
+		},
+		"tags": [
+			"smithing_table",
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:netherite_sword"
+			},
+			{
+				"item": "cladded:cladding_scrapmetal"
+			}
+		],
+		"result": {
+			"item": "cladded:cladded_netherite_sword",
+			"count": 1
+		}
+	}
+}

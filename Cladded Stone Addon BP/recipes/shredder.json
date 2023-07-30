@@ -1,0 +1,34 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cladded:shredder"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"C": {
+				"item": "cladded:cladding_ingot"
+			},
+			"I": {
+				"item": "iron_ingot"
+			},
+			"R": {
+				"item": "redstone_torch"
+			},
+			"S": {
+				"item": "smooth_stone"
+			}
+		},
+		"pattern": [
+			"CIC",
+			"SRS",
+			"CSC"
+		],
+		"result": {
+			"count": 1,
+			"item": "cladded:shredder"
+		}
+	}
+}

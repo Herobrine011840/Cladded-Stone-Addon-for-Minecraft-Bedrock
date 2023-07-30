@@ -1,0 +1,23 @@
+{
+	"format_version": "1.18.20",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "cladded:summit_ruin7"
+		},
+		"structure_name": "summit_ruin:small_ruin_3",
+		"adjustment_radius": 16,
+		"facing_direction": "south",
+		"constraints": {
+			"grounded": {},
+			"unburied": {},
+			"block_intersection": {
+				"block_allowlist": [
+					"grass",
+					"air",
+					"dirt",
+					"basalt"
+				]
+			}
+		}
+	}
+}

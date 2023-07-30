@@ -1,0 +1,11 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:snap_to_surface_feature": {
+		"description": {
+			"identifier": "cladded:ruin_around_big_snap"
+		},
+		"feature_to_snap": "cladded:summit_ruin_scatter",
+		"vertical_search_range": 200,
+		"surface": "floor"
+	}
+}

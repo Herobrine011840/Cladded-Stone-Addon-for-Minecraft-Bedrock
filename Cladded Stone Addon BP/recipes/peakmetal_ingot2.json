@@ -1,0 +1,14 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "cladded:peakmetal_ingot2"
+		},
+		"tags": [
+			"blast_furnace",
+			"furnace"
+		],
+		"input": "cladded:peakmetal_ore",
+		"output": "cladded:peakmetal_ingot"
+	}
+}

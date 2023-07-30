@@ -1,0 +1,21 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "cladded:peakmetal_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "cladded:peakmetal_ingot",
+				"count": 9
+			}
+		],
+		"result": {
+			"item": "cladded:peakmetal_block",
+			"count": 1
+		}
+	}
+}

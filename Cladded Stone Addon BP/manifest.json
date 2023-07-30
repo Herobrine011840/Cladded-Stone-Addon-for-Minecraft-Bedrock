@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Herobrine011840"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.6.0"
+			],
+			"dash": [
+				"0.10.8"
+			]
+		}
+	},
+	"header": {
+		"name": "Cladded Stone Addon",
+		"description": "",
+		"min_engine_version": [
+			1,
+			19,
+			0
+		],
+		"uuid": "09c711df-ef4d-4de4-8f8c-50c749258780",
+		"version": [
+			1,
+			0,
+			2
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "d3200a88-83c9-402a-8dc0-055b640c2f17",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "fd4df5b1-623b-4db5-a9b8-946cd9b27452",
+			"version": [
+				1,
+				0,
+				2
+			]
+		}
+	]
+}

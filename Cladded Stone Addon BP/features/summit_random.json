@@ -1,0 +1,54 @@
+{
+	"format_version": "1.18.20",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "cladded:summit_random"
+		},
+		"features": [
+			[
+				"cladded:summit_ruin",
+				1
+			],
+			[
+				"cladded:summit_ruin3",
+				1
+			],
+			[
+				"cladded:summit_ruin4",
+				1
+			],
+			[
+				"cladded:summit_ruin5",
+				1
+			],
+			[
+				"cladded:summit_ruin6",
+				1
+			],
+			[
+				"cladded:summit_ruin7",
+				1
+			],
+			[
+				"cladded:summit_ruin8",
+				1
+			],
+			[
+				"cladded:summit_ruin11",
+				2
+			],
+			[
+				"cladded:summit_ruin12",
+				2
+			],
+			[
+				"cladded:summit_ruin13",
+				2
+			],
+			[
+				"cladded:summit_ruin14",
+				2
+			]
+		]
+	}
+}

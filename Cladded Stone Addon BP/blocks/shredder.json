@@ -1,0 +1,34 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cladded:shredder"
+		},
+		"components": {
+			"minecraft:block_light_absorption": 15,
+			"minecraft:creative_category": {
+				"category": "items",
+				"group": "items"
+			},
+			"minecraft:destroy_time": 1.6,
+			"minecraft:explosion_resistance": 90,
+			"minecraft:on_interact": {
+				"condition": "query.get_equipped_item_name('main_hand')=='cladding_ingot'",
+				"event": "shred"
+			}
+		},
+		"events": {
+			"shred": {
+				"run_command": {
+					"command": [
+						"playsound random.anvil_use @a ~ ~ ~ 1 0.5"
+					]
+				},
+				"spawn_loot": {
+					"table": "loot_tables/shred.json"
+				},
+				"decrement_stack": {}
+			}
+		}
+	}
+}

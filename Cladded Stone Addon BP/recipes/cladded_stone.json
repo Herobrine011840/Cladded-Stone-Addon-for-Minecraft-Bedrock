@@ -1,0 +1,26 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "cladded:cladded_stone"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "cladded:cladding_scrapmetal",
+				"count": 1
+			},
+			{
+				"item": "stone",
+				"count": 1,
+				"data": 0
+			}
+		],
+		"result": {
+			"item": "cladded:cladded_stone",
+			"count": 1
+		}
+	}
+}

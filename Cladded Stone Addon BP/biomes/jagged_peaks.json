@@ -1,0 +1,66 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "jagged_peaks"
+		},
+		"components": {
+			"minecraft:climate": {
+				"downfall": 0.9,
+				"snow_accumulation": [
+					0,
+					0.125
+				],
+				"temperature": 0.91
+			},
+			"minecraft:surface_material_adjustments": {
+				"adjustments": [
+					{
+						"materials": {
+							"top_material": "minecraft:basalt"
+						},
+						"noise_frequency_scale": 0.1,
+						"noise_range": [
+							0.35,
+							0.6
+						]
+					},
+					{
+						"materials": {
+							"top_material": "minecraft:snow"
+						},
+						"noise_frequency_scale": 0.05,
+						"noise_range": [
+							0.45,
+							0.58
+						]
+					}
+				]
+			},
+			"minecraft:mountain_parameters": {
+				"peaks_factor": 3,
+				"steep_material_adjustment": {
+					"material": "minecraft:stone",
+					"north_slopes": true,
+					"east_slopes": true
+				},
+				"top_slide": {
+					"enabled": true
+				}
+			},
+			"minecraft:surface_parameters": {
+				"sea_floor_depth": 7,
+				"sea_floor_material": "minecraft:stone",
+				"foundation_material": "minecraft:stone",
+				"mid_material": "minecraft:stone",
+				"top_material": "minecraft:grass",
+				"sea_material": "minecraft:water"
+			},
+			"mountains": {},
+			"monster": {},
+			"overworld": {},
+			"jagged_peaks": {},
+			"skytop": {}
+		}
+	}
+}

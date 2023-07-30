@@ -1,0 +1,12 @@
+{
+	"format_version": "1.18.20",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "cladded:summit_ruin_around_big"
+		},
+		"features": [
+			"cladded:big_ruin_snap",
+			"cladded:ruin_around_big_snap"
+		]
+	}
+}

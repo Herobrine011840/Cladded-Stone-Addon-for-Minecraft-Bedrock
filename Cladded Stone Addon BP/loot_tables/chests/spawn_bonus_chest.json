@@ -1,0 +1,151 @@
+{
+  "pools": [
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "item",
+          "name": "written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_book_contents",
+              "author": "Herobrine011840",
+              "title": "Cladded Guide",
+              "pages": [
+                "A Guide to the Cladded Stone Addon 
+ 
+        BLOCKS: 
+ 
+Cladded Stone: 
+  Cladded Stone is a mainly decorative block crafted using a stone block and Cladding Scrapmetal. There is a Cladded Smooth stone, too. 
+",
+"Ivy: 
+  Ivy is a plant block found in Jagged Peaks and can be harvested with shears. Using bonemeal on an Ivy block will cause it to spread on all sides if possible. If Ivy spreads to a stone brick block, then it will cover the brick in Ivy. ",
+"Peakmetal: 
+  Peakmetal is an ore found in Jagged Peaks and Frozen Peaks that can be mined with a stone pickaxe or better. Its main use is to be combined with iron and quartz to make cladding ingots. 
+ 
+Shredder: 
+  The Shredder Block is crafted from smooth ",
+"stone, iron, a redstone torch, and Cladding Ingots. the primary use of Shredders is to shred a cladding ingot into scrapmetal. 
+ 
+           ITEMS: 
+ 
+Cladded Netherite Sword: 
+  This sword can be made from combining a netherite sword with a ",
+"Cladding Scrapmetal. Its attack damage is the same as netherite, although it has slightly higher durability. 
+ 
+Cladding Ingot: 
+  This ingot is crafted from a Peakmetal Ingot, an iron ingot, and a nether quartz. The only use of this is to make Shredders and ",
+"Cladding Scrapmetal. 
+ 
+       STRUCTURES: 
+ 
+Summit Ruins: 
+  This structure is found near the top of Jagged Peaks, and is generally composed of a central ruin surrounded by smaller ruins and walls. the loot here consists of iron blocks, chests, and, ",
+"sometimes, an Allay. 
+ 
+Workshop: 
+  This structure can be found anywhere in the overworld and its appearence consists of a large stone brick building with carpet and deepslate tile floors. This structure is divided into two floors, along with a tower. lots ",
+"of utility blocks, like stonecutters and Shredders, are found here along with a chest. 
+ 
+           BIOMES: 
+ 
+Jagged Peaks: 
+  In this addon, Jagged Peaks are modified to be more tropical, with grass, Ivy, and basalt on the ground here. Peakmetal is common ",
+"here, and Summit Ruins are, too. "
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:stone_axe",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:wooden_axe",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:stone_pickaxe",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:wooden_pickaxe",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:bread",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 12
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:quartz",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

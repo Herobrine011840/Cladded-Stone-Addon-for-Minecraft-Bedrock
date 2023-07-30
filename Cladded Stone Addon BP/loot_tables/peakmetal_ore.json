@@ -1,0 +1,72 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"count": 1,
+					"item": "minecraft:stone_pickaxe"
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "cladded:raw_peakmetal",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"count": 1,
+					"item": "minecraft:iron_pickaxe"
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "cladded:raw_peakmetal",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"count": 1,
+					"item": "minecraft:diamond_pickaxe"
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "cladded:raw_peakmetal",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"count": 1,
+					"item": "minecraft:netherite_pickaxe"
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "cladded:raw_peakmetal",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "cladded:ivy_stonebrick"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "cladded:ivy",
+				"count": 1
+			},
+			{
+				"item": "stonebrick",
+				"count": 1
+			}
+		],
+		"result": {
+			"item": "cladded:ivy_stonebrick",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"count": 1,
+					"item": "minecraft:shears"
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "cladded:ivy",
+					"weight": 1
+				}
+			]
+		}
+	]
+}
